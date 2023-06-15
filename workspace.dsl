@@ -111,7 +111,7 @@ workspace {
         }
 
         branding {
-            logo Alleima_Symbol_RGB_Primary_MoltenOrange.png
+            logo https://github.com/AlleimaIntegration/common-resources/blob/main/Alleima_Symbol_RGB_Primary_MoltenOrange.png
             //font <name> [url]
         }
     }
