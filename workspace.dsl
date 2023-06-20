@@ -44,6 +44,11 @@ workspace {
             tags "system"
         }
 
+        bpc = softwareSystem "BPC" {
+            description "Business Planning and Consolidation"
+            tags "system"
+        }
+
         satin = softwareSystem "SATIN" {
             description "Mainframe System"
             tags "system" "legacy"
@@ -80,7 +85,12 @@ workspace {
 
             mqCore = softwareSystem "MQ Core" {
                 description "Queue Manager Core instance"
-                tags "system", "middleware", "integrationCoreComponent", "queue"
+                tags "system", "middleware", "integrationCoreComponent", "mq"
+            }
+
+            java = softwareSystem "Java" {
+                description "Integration Middleware"
+                tags "integrationCoreComponent", "middleware"
             }
         }
     }
@@ -101,7 +111,7 @@ workspace {
                 color #ffffff
             }
             
-            element "mq" {
+            element "queue" {
                 shape Pipe
             }
             element "integrationComponent" {
@@ -112,7 +122,6 @@ workspace {
 
         branding {
             logo https://raw.githubusercontent.com/AlleimaIntegration/common-resources/main/Alleima_Symbol_RGB_Primary_MoltenOrange.png
-            //font <name> [url]
         }
     }
 }
