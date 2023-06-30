@@ -64,6 +64,17 @@ workspace {
             tags "system" "legacy"
         }
 
+        picsara = softwareSystem "Picsara" {
+            description "Analyze pictures of samples"
+            tags "system" ""
+        }
+
+        sandship = softwareSystem "Sandship" {
+            description ""
+            tags "system" ""
+        }
+
+
 
 
 
