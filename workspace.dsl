@@ -95,7 +95,7 @@ workspace {
 
         group IntegrationComponents {
             eip = softwareSystem "EIP" {
-                description "Integration Middleware\ (Azure)"
+                description "Integration Middleware\n (Azure)"
                 tags "integrationCoreComponent", "middleware"
             }
 
