@@ -95,7 +95,7 @@ workspace {
 
         group IntegrationComponents {
             eip = softwareSystem "EIP" {
-                description "Integration Middleware"
+                description "Integration Middleware\ (Azure)"
                 tags "integrationCoreComponent", "middleware"
             }
 
@@ -115,7 +115,7 @@ workspace {
             }
 
             java = softwareSystem "Java" {
-                description "Integration Middleware"
+                description "Custom Integration"
                 tags "integrationCoreComponent", "middleware"
             }
         }
