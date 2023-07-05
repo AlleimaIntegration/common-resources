@@ -19,19 +19,28 @@ workspace {
             tags "system"
         }
 
-        mesStrip = softwareSystem "MES Strip" {
-            description "Strip instance"
+        wipTracking = softwareSystem "WIP Tracking" {
+            description "Tracks Work In Progress material"
             tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=aa579b8497bbe190d64ffea3f153afa4%26sysparm_view=business_application_readonly"
+        }
+
+        mesStrip = softwareSystem "MES Strip" {
+            description "​Manufacturing Execution System, Strip instance"
+            tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=482604751b8ff41041ca997e0d4bcb25%26sysparm_view=business_application_readonly"
         }
 
         mesTube = softwareSystem "MES Tube" {
-            description "Tube instance"
+            description "​Manufacturing Execution System, Tube instance"
             tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=922684751b8ff41041ca997e0d4bcbca%26sysparm_view=business_application_readonly"
         }
 
         mesPrimary = softwareSystem "MES Primary" {
-            description "Primary instance"
+            description "​Manufacturing Execution System, Primary instance"
             tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=522684751b8ff41041ca997e0d4bcbc8%26sysparm_view=business_application_readonly"
         }
 
         treasury = softwareSystem "Treasury" {
@@ -72,6 +81,12 @@ workspace {
         sandship = softwareSystem "Sandship" {
             description ""
             tags "system" ""
+        }
+
+        sandplan = softwareSystem "Sandplan" {
+            description "System for planning incoming material to distribution centers or production units within Alleima"
+            tags "system" ""
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=b52684751b8ff41041ca997e0d4bcb4e%26sysparm_view=business_application_readonly"
         }
 
 
