@@ -96,7 +96,7 @@ workspace {
         group IntegrationComponents {
             eip = softwareSystem "EIP" {
                 description "Integration Middleware\n (Azure)"
-                tags "integrationCoreComponent", "middleware"
+                tags "integrationCoreComponent, middleware, azure"
             }
 
             ibridgeMes = softwareSystem "iBridge MES"  {
