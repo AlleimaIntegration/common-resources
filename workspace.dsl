@@ -206,6 +206,11 @@ workspace {
             element "queue" {
                 shape Pipe
             }
+
+            element "database" {
+                shape Cylinder
+            }
+
             element "integrationComponent" {
                 background #b9c4c9
                 color #ffffff
