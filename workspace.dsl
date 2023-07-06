@@ -202,6 +202,10 @@ workspace {
                 background #576970
                 color #ffffff
             }
+            element "eipComponent" {
+                background #e1e1e1
+                color #0f232e   
+            }
             
             element "queue" {
                 shape Pipe
