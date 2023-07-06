@@ -220,10 +220,12 @@ workspace {
                 background #b9c4c9
                 color #ffffff
             }
+
+            themes "https://static.structurizr.com/themes/microsoft-azure-2019.09.11/theme.json"
         }
 
         branding {
-            logo https://raw.githubusercontent.com/AlleimaIntegration/common-resources/main/Alleima_Symbol_RGB_Primary_MoltenOrange.png
+            logo "https://raw.githubusercontent.com/AlleimaIntegration/common-resources/main/Alleima_Symbol_RGB_Primary_MoltenOrange.png"
         }
     }
 }
