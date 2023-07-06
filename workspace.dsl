@@ -204,7 +204,8 @@ workspace {
             }
             element "eipComponent" {
                 background #e1e1e1
-                color #0f232e   
+                color #0f232e
+                stroke #0f232e
             }
             
             element "queue" {
