@@ -62,8 +62,9 @@ workspace {
         }
 
         treasury = softwareSystem "Treasury" {
-            description ""
+            description "For all business between us and internal and external counterparties"
             tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=44fd73ff1b83f4503b350e9c5e4bcbe5%26sysparm_view=business_application_readonly"
         }
 
         trax = softwareSystem "Trax" {
@@ -72,14 +73,21 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=24ff02c687190d90434cecee8bbb35c9%26sysparm_view=business_application_readonly"
         }
 
+        pagero = softwareSystem "Pagero" {
+            description "Electronic Data Interchange Broker"
+            tags "system"
+        }
+
         ihub = softwareSystem "iHub" {
             description "Information Service Hub."
             tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=3316c0751b8ff41041ca997e0d4bcbf2%26sysparm_view=Business_Application_readonly"
         }
 
         bpc = softwareSystem "BPC" {
             description "Business Planning and Consolidation"
             tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=b74a7ffb1b83f4503b350e9c5e4bcb7e%26sysparm_view=business_application_readonly"
         }
 
         ffs72 = softwareSystem "FFS72" {
@@ -94,13 +102,15 @@ workspace {
         }
 
         ofo = softwareSystem "OFO" {
-            description "Mainframe System"
+            description "​Order system for Site Sandviken. Mainframe System"
             tags "system" "legacy"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d12644751b8ff41041ca997e0d4bcbd2%26sysparm_view=business_application_readonly"
         }
 
         sviss = softwareSystem "SVISS" {
-            description "Mainframe System"
+            description "​ERP System with in Primary Products and PA Rock drill Steel. Mainframe System"
             tags "system" "legacy"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=f626c4751b8ff41041ca997e0d4bcb67%26sysparm_view=business_application_readonly"
         }
 
         sopic = softwareSystem "SOPIC" {
@@ -112,6 +122,7 @@ workspace {
         picsara = softwareSystem "Picsara" {
             description "Analyze pictures of steel samples"
             tags "system" ""
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=612644751b8ff41041ca997e0d4bcbef%26sysparm_view=business_application_readonly"
         }
 
         plc = softwareSystem "PLC" {
