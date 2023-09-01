@@ -119,6 +119,13 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=5a2684751b8ff41041ca997e0d4bcbd8%26sysparm_view=business_application_readonly"
         }
 
+        packingTool = softwareSystem "Packing Tool" {
+            description ""
+            tags "system" ""
+            url ""
+
+        }
+
         picsara = softwareSystem "Picsara" {
             description "Analyze pictures of steel samples"
             tags "system" ""
