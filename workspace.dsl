@@ -203,6 +203,19 @@ workspace {
                 tags "integrationCoreComponent", "middleware"
             }
         }
+
+        ion = softwareSystem "ION" {
+                description "Infor ION"
+                tags "integrationComponent"
+        }
+        ionAPI = softwareSystem "ION API" {
+                description "Infor ION API"
+                tags "integrationComponent"
+        }
+        iec = softwareSystem "IEC" {
+                description "Infor Enterprise Collaborator Configuration"
+                tags "integrationComponent"
+        }
     }
 
     views {
@@ -225,7 +238,6 @@ workspace {
                 color #0f232e
                 stroke #0f232e
             }
-            
             element "queue" {
                 shape Pipe
             }
