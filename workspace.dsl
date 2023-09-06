@@ -287,7 +287,7 @@ workspace {
             element "integrationComponent" {
                 shape RoundedBox
                 background #b9c4c9
-                color #ffffff
+                color #0f232e
             }
 
             themes "https://static.structurizr.com/themes/microsoft-azure-2019.09.11/theme.json"
