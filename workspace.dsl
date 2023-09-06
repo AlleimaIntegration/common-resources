@@ -180,7 +180,7 @@ workspace {
         group CoreIntegrationComponents {
             eip = softwareSystem "EIP" {
                 description "Integration Middleware\n (Azure)"
-                tags "system integrationCoreComponent, middleware, azure"
+                tags "system, integrationCoreComponent, middleware, azure"
             }
 
             ibridgeMes = softwareSystem "iBridge MES"  {
@@ -200,7 +200,7 @@ workspace {
 
             java = softwareSystem "Java" {
                 description "Custom Integration"
-                tags "integrationCoreComponent, middleware"
+                tags "system, integrationCoreComponent, middleware"
             }
         }
 
