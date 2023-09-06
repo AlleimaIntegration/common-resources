@@ -285,6 +285,7 @@ workspace {
             }
 
             element "integrationComponent" {
+                shape RoundedBox
                 background #b9c4c9
                 color #ffffff
             }
