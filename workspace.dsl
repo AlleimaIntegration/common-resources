@@ -177,7 +177,7 @@ workspace {
 
 
 
-        group IntegrationComponents {
+        group CoreIntegrationComponents {
             eip = softwareSystem "EIP" {
                 description "Integration Middleware\n (Azure)"
                 tags "integrationCoreComponent, middleware, azure"
@@ -204,18 +204,56 @@ workspace {
             }
         }
 
-        ion = softwareSystem "ION" {
-                description "Infor ION"
-                tags "integrationComponent"
+        group M3IntegartionComponets {
+            ion = softwareSystem "ION" {
+                    description "Infor ION"
+                    tags "integrationComponent"
+            }
+            ionAPI = softwareSystem "ION API" {
+                    description "Infor ION API"
+                    tags "integrationComponent"
+            }
+            iec = softwareSystem "IEC" {
+                    description "Infor Enterprise Collaborator Configuration"
+                    tags "integrationComponent"
+            }
         }
-        ionAPI = softwareSystem "ION API" {
-                description "Infor ION API"
+
+        group OtherIntegrationComponents {
+            mqUS = softwareSystem "MQ US" {
+                description "Local QueueManager, QM46294"
                 tags "integrationComponent"
-        }
-        iec = softwareSystem "IEC" {
-                description "Infor Enterprise Collaborator Configuration"
+            }
+            mqMF = softwareSystem "MQ Mainframe" {
+                description "Shared with Sandvik, QMP1"
                 tags "integrationComponent"
+            }
+            mqAS1 = softwareSystem "MQ SOPIC SEAS01" {
+                description "EMEA, Santrade, Italy, DC Venlo (QMPAS1)"
+                tags "integrationComponent"          
+            }
+            mqAS2 = softwareSystem "MQ SOPIC SEAS02" {
+                description "Japan (QMPAS2)"
+                tags "integrationComponent"          
+            }
+            mqAS3 = softwareSystem "MQ SOPIC SEAS02" {
+                description "Korea, QMPAS3"
+                tags "integrationComponent"          
+            }
+            mqAS4 = softwareSystem "MQ SOPIC SEAS04" {
+                description "SOPIC Singapore, Malaysia (QMPAS4)"
+                tags "integrationComponent"          
+            }
+            mqAS5 = softwareSystem "MQ SOPIC SEAS05" {
+                description "China - Shanghai, Zhenjiang (QMPAS5)"
+                tags "integrationComponent"          
+            }
+            mqAS6 = softwareSystem "MQ SOPIC SEAS06" {
+                description "India - Pune, Mehsana (QMPAS6)"
+                tags "integrationComponent"          
+            }
         }
+
     }
 
     views {
