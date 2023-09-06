@@ -221,15 +221,15 @@ workspace {
 
         group OtherIntegrationComponents {
             mqUS = softwareSystem "MQ US" {
-                description "Local QueueManager, QM46294"
+                description "QueueManager local US \n(QM46294)"
                 tags "integrationComponent"
             }
             mqMF = softwareSystem "MQ Mainframe" {
-                description "Shared with Sandvik, QMP1"
+                description "QueueManager shared with Sandvik \n(QMP1)"
                 tags "integrationComponent"
             }
             mqAS1 = softwareSystem "MQ SOPIC SEAS01" {
-                description "EMEA, Santrade, Italy, DC Venlo (QMPAS1)"
+                description "EMEA, Santrade, Italy, DC Venlo \n(QMPAS1)"
                 tags "integrationComponent"          
             }
             mqAS2 = softwareSystem "MQ SOPIC SEAS02" {
