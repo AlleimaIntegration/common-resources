@@ -180,12 +180,12 @@ workspace {
         group CoreIntegrationComponents {
             eip = softwareSystem "EIP" {
                 description "Integration Middleware\n (Azure)"
-                tags "integrationCoreComponent, middleware, azure"
+                tags "system integrationCoreComponent, middleware, azure"
             }
 
             ibridgeMes = softwareSystem "iBridge MES"  {
                 description "Middleware instance dedicated to MES Systems"
-                tags "system", "middleware" , "integrationCoreComponent"
+                tags "system, middleware, integrationCoreComponent"
             }
 
             ibridgeCore = softwareSystem "iBridge Core" {
@@ -195,62 +195,62 @@ workspace {
 
             mqCore = softwareSystem "MQ Core" {
                 description "Queue Manager Core instance"
-                tags "system", "middleware", "integrationCoreComponent", "mq"
+                tags "system, middleware, integrationCoreComponent, mq"
             }
 
             java = softwareSystem "Java" {
                 description "Custom Integration"
-                tags "integrationCoreComponent", "middleware"
+                tags "integrationCoreComponent, middleware"
             }
         }
 
         group M3IntegartionComponets {
             ion = softwareSystem "ION" {
                     description "Infor ION"
-                    tags "integrationComponent"
+                    tags "system, integrationComponent"
             }
             ionAPI = softwareSystem "ION API" {
                     description "Infor ION API"
-                    tags "integrationComponent"
+                    tags "system, integrationComponent"
             }
             iec = softwareSystem "IEC" {
                     description "Infor Enterprise Collaborator Configuration"
-                    tags "integrationComponent"
+                    tags "system, integrationComponent"
             }
         }
 
         group OtherIntegrationComponents {
             mqUS = softwareSystem "MQ US" {
                 description "QueueManager local US \n(QM46294)"
-                tags "integrationComponent"
+                tags "system, integrationComponent"
             }
             mqMF = softwareSystem "MQ Mainframe" {
                 description "QueueManager shared with Sandvik \n(QMP1)"
-                tags "integrationComponent"
+                tags "system integrationComponent"
             }
             mqAS1 = softwareSystem "MQ SOPIC SEAS01" {
                 description "EMEA, Santrade, Italy, DC Venlo \n(QMPAS1)"
-                tags "integrationComponent"          
+                tags "system, integrationComponent"          
             }
             mqAS2 = softwareSystem "MQ SOPIC SEAS02" {
                 description "Japan (QMPAS2)"
-                tags "integrationComponent"          
+                tags "system, integrationComponent"          
             }
             mqAS3 = softwareSystem "MQ SOPIC SEAS03" {
                 description "Korea, QMPAS3"
-                tags "integrationComponent"          
+                tags "system, integrationComponent"          
             }
             mqAS4 = softwareSystem "MQ SOPIC SEAS04" {
                 description "SOPIC Singapore, Malaysia (QMPAS4)"
-                tags "integrationComponent"          
+                tags "system, integrationComponent"          
             }
             mqAS5 = softwareSystem "MQ SOPIC SEAS05" {
                 description "China - Shanghai, Zhenjiang (QMPAS5)"
-                tags "integrationComponent"          
+                tags "system, integrationComponent"          
             }
             mqAS6 = softwareSystem "MQ SOPIC SEAS06" {
                 description "India - Pune, Mehsana (QMPAS6)"
-                tags "integrationComponent"          
+                tags "system, integrationComponent"          
             }
         }
 
