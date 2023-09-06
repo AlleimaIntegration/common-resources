@@ -236,7 +236,7 @@ workspace {
                 description "Japan (QMPAS2)"
                 tags "integrationComponent"          
             }
-            mqAS3 = softwareSystem "MQ SOPIC SEAS02" {
+            mqAS3 = softwareSystem "MQ SOPIC SEAS03" {
                 description "Korea, QMPAS3"
                 tags "integrationComponent"          
             }
