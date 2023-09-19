@@ -84,6 +84,11 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=3316c0751b8ff41041ca997e0d4bcbf2%26sysparm_view=Business_Application_readonly"
         }
 
+        iplanner = softwareSystem "iPlanner" {
+            description "Sales and Capacity Planning process within Alleima and the Master Planning process at Primary Products."
+            tags "system"
+        }
+
         bpc = softwareSystem "BPC" {
             description "Business Planning and Consolidation"
             tags "system"
