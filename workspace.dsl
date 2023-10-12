@@ -322,7 +322,7 @@ workspace {
                 color #0f232e
             }
 
-            themes "https://static.structurizr.com/themes/microsoft-azure-2019.09.11/theme.json"
+            themes "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json"
         }
 
         branding {
