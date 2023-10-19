@@ -322,6 +322,24 @@ workspace {
                 color #0f232e
             }
 
+            element "mdb" {
+                background #872823
+                color #ffffff
+                shape Hexagon
+            }
+            element "ejb" {
+                background #872823
+                color #ffffff
+                shape Hexagon
+            }
+            element "pojo" {
+                background #cfd3d6
+                color #0f232e
+                strokeWidth 2
+                stroke #0f232e
+                border dashed
+            }
+
             themes "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json"
         }
 
