@@ -30,21 +30,23 @@ workspace {
             url ""
         }
 
-        m3 = softwareSystem "M3" {
-            description "ERP System"
-            tags "system"
-            url ""
-        }
-
-        m3_tube = softwareSystem "M3 Tube" {
-            description "ERP System, Alleima common template"
-            tags "system"
-            url ""
-        }
-
-        m3_kanthal = softwareSystem "M3 Kanthal" {
-            description "ERP System, Kanthal template"
-            tags "system"
+        group M3Templates {
+            m3 = softwareSystem "M3" {
+                description "ERP System"
+                tags "system"
+                url ""
+            }
+    
+            m3_tube = softwareSystem "M3 Tube" {
+                description "ERP System, Alleima common template"
+                tags "system"
+                url ""
+            }
+    
+            m3_kanthal = softwareSystem "M3 Kanthal" {
+                description "ERP System, Kanthal template"
+                tags "system"
+            }
         }
 
         maximo = softwareSystem "Maximo" {
