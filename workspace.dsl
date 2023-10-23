@@ -364,7 +364,7 @@ workspace {
                 shape WebBrowser
             }
 
-            element "person" {
+            element "Person" {
                 shape Person
             }
 
