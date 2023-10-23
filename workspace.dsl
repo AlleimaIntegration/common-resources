@@ -360,6 +360,14 @@ workspace {
                 border dashed
             }
 
+            element "clientApplication" {
+                shape WebBrowser
+            }
+
+            element "person" {
+                shape Person
+            }
+
             themes "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json"
         }
 
