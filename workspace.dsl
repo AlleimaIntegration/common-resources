@@ -58,22 +58,24 @@ workspace {
             tags "system"
         }
 
-        mesStrip = softwareSystem "MES Strip" {
-            description "​Manufacturing Execution System, Strip instance"
-            tags "system"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=482604751b8ff41041ca997e0d4bcb25%26sysparm_view=business_application_readonly"
-        }
-
-        mesTube = softwareSystem "MES Tube" {
-            description "​Manufacturing Execution System, Tube instance"
-            tags "system"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=922684751b8ff41041ca997e0d4bcbca%26sysparm_view=business_application_readonly"
-        }
-
-        mesPrimary = softwareSystem "MES Primary" {
-            description "​Manufacturing Execution System, Primary instance"
-            tags "system"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=522684751b8ff41041ca997e0d4bcbc8%26sysparm_view=business_application_readonly"
+        group MES {
+            mesStrip = softwareSystem "MES Strip" {
+                description "​Manufacturing Execution System, Strip instance"
+                tags "system"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=482604751b8ff41041ca997e0d4bcb25%26sysparm_view=business_application_readonly"
+            }
+    
+            mesTube = softwareSystem "MES Tube" {
+                description "​Manufacturing Execution System, Tube instance"
+                tags "system"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=922684751b8ff41041ca997e0d4bcbca%26sysparm_view=business_application_readonly"
+            }
+    
+            mesPrimary = softwareSystem "MES Primary" {
+                description "​Manufacturing Execution System, Primary instance"
+                tags "system"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=522684751b8ff41041ca997e0d4bcbc8%26sysparm_view=business_application_readonly"
+            }
         }
 
         treasury = softwareSystem "Treasury" {
@@ -110,28 +112,42 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=b74a7ffb1b83f4503b350e9c5e4bcb7e%26sysparm_view=business_application_readonly"
         }
 
-        ffs72 = softwareSystem "FFS72" {
-            description "​Invoicing system for Site Sandviken\n Mainframe System"
-            tags "system" "legacy"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=302644751b8ff41041ca997e0d4bcb18%26sysparm_view=business_application_readonly"
-        }
+        group Mainframe {
+            ffs72 = softwareSystem "FFS72" {
+                description "​Invoicing system for Site Sandviken\n Mainframe System"
+                tags "system" "legacy"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=302644751b8ff41041ca997e0d4bcb18%26sysparm_view=business_application_readonly"
+            }
+    
+            satin = softwareSystem "SATIN" {
+                description "Mainframe System"
+                tags "system" "legacy"
+            }
+    
+            ofo = softwareSystem "OFO" {
+                description "​Order system for Site Sandviken. Mainframe System"
+                tags "system" "legacy"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d12644751b8ff41041ca997e0d4bcbd2%26sysparm_view=business_application_readonly"
+            }
+    
+            sviss = softwareSystem "SVISS" {
+                description "​ERP System with in Primary Products and PA Rock drill Steel. Mainframe System"
+                tags "system" "legacy"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=f626c4751b8ff41041ca997e0d4bcb67%26sysparm_view=business_application_readonly"
+            }
 
-        satin = softwareSystem "SATIN" {
-            description "Mainframe System"
-            tags "system" "legacy"
-        }
+            senit = softwareSystem "SENIT" {
+                description "​​System to create and distribute material test certificates from Sandviken. Not used for all products but most of them"
+                tags "system" "legacy"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=822684751b8ff41041ca997e0d4bcb88%26sysparm_view=business_application_readonly"
+            }
 
-        ofo = softwareSystem "OFO" {
-            description "​Order system for Site Sandviken. Mainframe System"
-            tags "system" "legacy"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d12644751b8ff41041ca997e0d4bcbd2%26sysparm_view=business_application_readonly"
-        }
-
-        sviss = softwareSystem "SVISS" {
-            description "​ERP System with in Primary Products and PA Rock drill Steel. Mainframe System"
-            tags "system" "legacy"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=f626c4751b8ff41041ca997e0d4bcb67%26sysparm_view=business_application_readonly"
-        }
+            pix = softwareSystem "PIX" {
+                description "​Testing system for ST, SV, SZ"
+                tags "system" "legacy"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=e12644751b8ff41041ca997e0d4bcbf3%26sysparm_view=business_application_readonly"
+            }
+    }
 
         sopic = softwareSystem "SOPIC" {
             description "Main ERP system for Alleima sales units in EMEA and APAC regions"
@@ -145,7 +161,6 @@ workspace {
             url ""
 
         }
-
         picsara = softwareSystem "Picsara" {
             description "Analyze pictures of steel samples"
             tags "system" ""
@@ -205,8 +220,11 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=bcff42c687190d90434cecee8bbb357d%26sysparm_view=business_application_readonly"
         }
 
-
-
+        qm = softwareSystem "QM" {
+            description "Quality Management"
+            tags "system, ${allQmMessageTypes}"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=2d2684751b8ff41041ca997e0d4bcb26%26sysparm_view=business_application_readonly"
+        }
 
 
         group CoreIntegrationComponents {
