@@ -161,7 +161,7 @@ workspace {
                 tags "system" "legacy"
                 url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=e12644751b8ff41041ca997e0d4bcbf3%26sysparm_view=business_application_readonly"
             }
-    }
+        }
 
         sopic = softwareSystem "SOPIC" {
             description "Main ERP system for Alleima sales units in EMEA and APAC regions"
