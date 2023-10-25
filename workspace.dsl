@@ -32,12 +32,24 @@ workspace {
 
         group M3Templates {
             m3 = softwareSystem "M3" {
-                description "ERP System"
+                description "ERP System, Alleima common template"
                 tags "system"
                 url ""
             }
     
             m3_tube = softwareSystem "M3 Tube" {
+                description "ERP System, Alleima common template"
+                tags "system"
+                url ""
+            }
+
+            m3_strip = softwareSystem "M3 Strip" {
+                description "ERP System, Alleima common template"
+                tags "system"
+                url ""
+            }
+
+            m3_primary = softwareSystem "M3 Primary" {
                 description "ERP System, Alleima common template"
                 tags "system"
                 url ""
