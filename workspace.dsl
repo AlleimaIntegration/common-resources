@@ -24,6 +24,18 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=7eef4e8687190d90434cecee8bbb35f0%26sysparm_view=business_application_readonly"
         }
 
+        group External {
+            external_ipcoM3 = softwareSystem "IPCO M3" {
+                tags "system, external"
+            }
+            external_SandvikPowder = softwareSystem "Sandvik Powder M3" {
+                tags "system, external"
+            }
+            external_gct = softwareSystem "GCT" {
+                tags "system, external"
+            }
+        }
+
         sap = softwareSystem "SAP" {
             description "ERP System"
             tags "system"
