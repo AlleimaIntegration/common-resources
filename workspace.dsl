@@ -367,12 +367,12 @@ workspace {
             }
 
             element "mdb" {
-                background #872823
+                background #59656C
                 color #ffffff
                 shape Hexagon
             }
             element "ejb" {
-                background #872823
+                background #899196
                 color #ffffff
                 shape Hexagon
             }
