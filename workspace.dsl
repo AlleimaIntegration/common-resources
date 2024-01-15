@@ -102,6 +102,11 @@ workspace {
                 tags "system"
                 url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=522684751b8ff41041ca997e0d4bcbc8%26sysparm_view=business_application_readonly"
             }
+
+            mesChomutov = softwareSystem "MES Chomutov" {
+                description "​Manufacturing Execution System, Chomutov instance"
+                tags "system"
+            }
         }
 
         treasury = softwareSystem "Treasury" {
