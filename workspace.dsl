@@ -79,6 +79,20 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=6716c0751b8ff41041ca997e0d4bcba1%26sysparm_view=business_application_readonly"
         }
 
+        mls = softwareSystem "MLS" {
+            description "Measure-Learn-Secure. Collects and structures process data like times, temperatures, pressure etc. from manufacturing."
+            tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d22684751b8ff41041ca997e0d4bcbcc%26sysparm_view=Business_Application"
+        }
+
+        mls_chomutov = softwareSystem "MLS" {
+            description "Measure-Learn-Secure, Chomutov. Collects and structures process data like times, temperatures, pressure etc. from manufacturing."
+            tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d22684751b8ff41041ca997e0d4bcbcc%26sysparm_view=Business_Application"
+        }
+
+https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=03ef8e8687190d90434cecee8bbb353f%26sysparm_view=Business_Application
+
         mpo = softwareSystem "MPO" {
             description "Machine Parameter Optimization"
             tags "system"
