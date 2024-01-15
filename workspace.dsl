@@ -85,7 +85,7 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d22684751b8ff41041ca997e0d4bcbcc%26sysparm_view=Business_Application"
         }
 
-        mls_chomutov = softwareSystem "MLS" {
+        mlsChomutov = softwareSystem "MLS" {
             description "Measure-Learn-Secure, Chomutov. Collects and structures process data like times, temperatures, pressure etc. from manufacturing."
             tags "system"
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d22684751b8ff41041ca997e0d4bcbcc%26sysparm_view=Business_Application"
