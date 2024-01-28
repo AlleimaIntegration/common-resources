@@ -256,6 +256,11 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=aa579b8497bbe190d64ffea3f153afa4%26sysparm_view=business_application_readonly"
         }
 
+        wipTrackingChomutov = softwareSystem "WIP Tracking Chomutov" {
+            description "Tracks Work In Progress material"
+            tags "system"
+        }
+
         workday = softwareSystem "Workday" {
             description "Solutions for finance, HR, planning, and spend management"
             tags "system"
