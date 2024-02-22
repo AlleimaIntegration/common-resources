@@ -321,7 +321,7 @@ workspace {
             }
         }
 
-        group OtherIntegrationComponents {
+        group IntegrationComponents {
             ibridgeMes = softwareSystem "iBridge MES"  {
                 description "Middleware instance dedicated to MES Systems"
                 tags "system, middleware, integrationCoreComponent"
