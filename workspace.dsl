@@ -12,6 +12,11 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=482604751b8ff41041ca997e0d4bcb44%26sysparm_view=business_application_readonly"
         }
 
+        adraBalancer = softwareSystem "Adra Balancer" {
+            description "Software for period reconciliation"
+            tags "system"
+        }
+
         coprocess = softwareSystem "CoProcess" {
             description "Intra group netting to settle internal invoices, internal loan/deposit, FX, dividend and commissions"
             tags "system"
