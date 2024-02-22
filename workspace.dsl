@@ -39,7 +39,7 @@ workspace {
         sap = softwareSystem "SAP" {
             description "ERP System"
             tags "system"
-            url ""
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=3befce8687190d90434cecee8bbb3525%26sysparm_view=Business_Application"
         }
 
         group M3Templates {
@@ -152,6 +152,11 @@ workspace {
             description "Business Planning and Consolidation"
             tags "system"
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=b74a7ffb1b83f4503b350e9c5e4bcb7e%26sysparm_view=business_application_readonly"
+        }
+        
+        businessVault = softwareSystem "Business Vault" {
+            description "Data Warehouse"
+            tags "system"
         }
 
         group Mainframe {
