@@ -284,15 +284,10 @@ workspace {
         }
 
 
-        group CoreIntegrationComponents {
+        group CoreIntegrationSystems {
             eip = softwareSystem "EIP" {
                 description "Integration Middleware\n (Azure)"
                 tags "system, integrationCoreComponent, middleware, azure"
-            }
-
-            ibridgeMes = softwareSystem "iBridge MES"  {
-                description "Middleware instance dedicated to MES Systems"
-                tags "system, middleware, integrationCoreComponent"
             }
 
             ibridgeCore = softwareSystem "iBridge Core" {
@@ -327,6 +322,10 @@ workspace {
         }
 
         group OtherIntegrationComponents {
+            ibridgeMes = softwareSystem "iBridge MES"  {
+                description "Middleware instance dedicated to MES Systems"
+                tags "system, middleware, integrationCoreComponent"
+            }
             mqUS = softwareSystem "MQ US" {
                 description "QueueManager local US \n(QM46294)"
                 tags "system, integrationComponent"
