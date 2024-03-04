@@ -312,7 +312,7 @@ workspace {
             }
         }
 
-        group M3IntegartionComponets {
+        group M3IntegartionSystems {
             ion = softwareSystem "ION" {
                     description "Infor ION"
                     tags "system, integrationComponent"
@@ -327,7 +327,7 @@ workspace {
             }
         }
 
-        group IntegrationComponents {
+        group IntegrationSystems {
             ibridgeMes = softwareSystem "iBridge MES"  {
                 description "Middleware instance dedicated to MES Systems"
                 tags "system, middleware, integrationCoreComponent"
