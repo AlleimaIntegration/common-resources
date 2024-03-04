@@ -171,21 +171,27 @@ workspace {
                 url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=302644751b8ff41041ca997e0d4bcb18%26sysparm_view=business_application_readonly"
             }
     
-            satin = softwareSystem "SATIN" {
-                description "Mainframe System"
-                tags "system" "legacy"
-            }
-    
             ofo = softwareSystem "OFO" {
                 description "​Order system for Site Sandviken. Mainframe System"
                 tags "system" "legacy"
                 url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=d12644751b8ff41041ca997e0d4bcbd2%26sysparm_view=business_application_readonly"
             }
-    
-            sviss = softwareSystem "SVISS" {
-                description "​ERP System with in Primary Products and PA Rock drill Steel. Mainframe System"
+
+            opal = softwareSystem "OPAL" {
+                description "​ERP system at Precision Strip"
                 tags "system" "legacy"
-                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=f626c4751b8ff41041ca997e0d4bcb67%26sysparm_view=business_application_readonly"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=952644751b8ff41041ca997e0d4bcbd8%26sysparm_view=business_application_readonly"
+            }
+
+            pix = softwareSystem "PIX" {
+                description "​Testing system for ST, SV, SZ"
+                tags "system" "legacy"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=e12644751b8ff41041ca997e0d4bcbf3%26sysparm_view=business_application_readonly"
+            }
+
+            satin = softwareSystem "SATIN" {
+                description "Mainframe System"
+                tags "system" "legacy"
             }
 
             senit = softwareSystem "SENIT" {
@@ -193,11 +199,11 @@ workspace {
                 tags "system" "legacy"
                 url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=822684751b8ff41041ca997e0d4bcb88%26sysparm_view=business_application_readonly"
             }
-
-            pix = softwareSystem "PIX" {
-                description "​Testing system for ST, SV, SZ"
+    
+            sviss = softwareSystem "SVISS" {
+                description "​ERP System with in Primary Products and PA Rock drill Steel. Mainframe System"
                 tags "system" "legacy"
-                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=e12644751b8ff41041ca997e0d4bcbf3%26sysparm_view=business_application_readonly"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=f626c4751b8ff41041ca997e0d4bcb67%26sysparm_view=business_application_readonly"
             }
         }
 
