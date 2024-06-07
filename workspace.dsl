@@ -304,8 +304,14 @@ workspace {
 
         qm = softwareSystem "QM" {
             description "Quality Management"
-            tags "system, ${allQmMessageTypes}"
+            tags "system"
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=2d2684751b8ff41041ca997e0d4bcb26%26sysparm_view=business_application_readonly"
+        }
+
+        dynalab = softwareSystem "Dynalab" {
+            description "LIMS, Laboratory Information Management System"
+            tags "system"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=8eef0e8687190d90434cecee8bbb35bb%26sysparm_view=Business_Application"
         }
 
 
