@@ -337,6 +337,12 @@ workspace {
             }
         }
 
+        exstream = softwareSystem "Exstream" {
+            description "Exstream/StreamServe, Document Output Management"
+            tags "system, output"
+            url ""
+        }
+
         group M3IntegartionSystems {
             ion = softwareSystem "ION" {
                     description "Infor ION"
