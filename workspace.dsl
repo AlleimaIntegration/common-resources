@@ -311,7 +311,7 @@ workspace {
         dynalab = softwareSystem "Dynalab" {
             description "LIMS, Laboratory Information Management System"
             tags "system"
-            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=8eef0e8687190d90434cecee8bbb35bb%26sysparm_view=Business_Application"
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=8eef0e8687190d90434cecee8bbb35bb%26sysparm_view=business_application_readonly"
         }
 
 
@@ -324,11 +324,13 @@ workspace {
             ibridgeCore = softwareSystem "iBridge Core" {
                 description "Middleware Core instance"
                 tags = "system, middleware, integrationCoreComponent"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=54a38acbc3d006186e021b43e40131ff%26sysparm_view=business_application_readonly"
             }
 
             mqCore = softwareSystem "MQ Core" {
                 description "Queue Manager Core instance"
                 tags "system, middleware, integrationCoreComponent, mq"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=93b4068bc31406186e021b43e401317e%26sysparm_view=business_application_readonly"
             }
 
             java = softwareSystem "Java" {
@@ -340,7 +342,7 @@ workspace {
         exstream = softwareSystem "Exstream" {
             description "Exstream/StreamServe, Document Output Management"
             tags "system, output"
-            url ""
+            url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=25b1d39ec3988ad46e021b43e40131d1%26sysparm_view=business_application_readonly"
         }
 
         group M3IntegartionSystems {
@@ -362,6 +364,7 @@ workspace {
             ibridgeMes = softwareSystem "iBridge MES"  {
                 description "Middleware instance dedicated to MES Systems"
                 tags "system, middleware, integrationCoreComponent"
+                url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=54a38acbc3d006186e021b43e40131ff%26sysparm_view=business_application_readonly"
             }
             mqUS = softwareSystem "MQ US" {
                 description "QueueManager local US \n(QM46294)"
