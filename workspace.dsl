@@ -314,6 +314,11 @@ workspace {
             url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=8eef0e8687190d90434cecee8bbb35bb%26sysparm_view=business_application_readonly"
         }
 
+        cpq = softwareSystem "CPQ" {
+            description "Infor Configure Price Quote (CPQ) is a visual, rules-based configurator software accelerate product configuration, pricing, and quoting."
+            tags "system, saas"
+            url ""
+        }
 
         group CoreIntegrationSystems {
             eip = softwareSystem "EIP" {
