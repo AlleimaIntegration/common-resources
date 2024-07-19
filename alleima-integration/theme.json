@@ -10,7 +10,7 @@
         },
         {
             "tag": "MQ - queue",
-            "shape": "Pipe"
+            "shape": "Pipe",
             "stroke": "#0078d4",
             "color": "#0078d4",
             "icon": "mq_queue.png"
