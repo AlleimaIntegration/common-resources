@@ -7,9 +7,7 @@
             "icon": "ibridge_flow.png"
         },
         {
-            "tag": "queue",
-            "width" : "650",
-            "width" : "500",
+            "tag": "MQ - queue",
             "shape": "Pipe",
             "icon": "mq_queue.png"
         }
