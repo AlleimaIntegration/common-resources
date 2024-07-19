@@ -467,7 +467,7 @@ workspace {
                 shape Person
             }
 
-            themes "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json"
+            themes "https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json" "https://raw.githubusercontent.com/AlleimaIntegration/common-resources/main/alleima-integration/theme.json"
         }
 
         branding {
