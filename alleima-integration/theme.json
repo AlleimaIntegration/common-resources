@@ -4,15 +4,11 @@
     "elements": [
         {
             "tag": "iBridge - flow",
-            "stroke": "#9869eb",
-            "color": "#9869eb",
             "icon": "ibridge_flow.png"
         },
         {
             "tag": "MQ - queue",
             "shape": "Pipe",
-            "stroke": "#0078d4",
-            "color": "#0078d4",
             "icon": "mq_queue.png"
         }
     ]
