@@ -315,7 +315,7 @@ workspace {
         }
 
         cpq = softwareSystem "CPQ" {
-            description "Infor Configure Price Quote (CPQ) is a visual, rules-based configurator software accelerate product configuration, pricing, and quoting."
+            description "Infor Configure Price Quote (CPQ)."
             tags "system, saas"
             url ""
         }
