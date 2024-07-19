@@ -8,8 +8,8 @@
         },
         {
             "tag": "queue",
+            "width" : "650",
             "width" : "500",
-            "width" : "400",
             "shape": "Pipe",
             "icon": "mq_queue.png"
         }
