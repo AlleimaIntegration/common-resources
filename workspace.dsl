@@ -355,6 +355,15 @@ workspace {
                     description "Infor ION"
                     tags "system, integrationComponent"
             }
+            ion_kanthal = softwareSystem "ION Kanthal" {
+                    description "Infor ION Kanthal Template"
+                    tags "system, integrationComponent"
+            }
+            ion_tube = softwareSystem "ION Tube" {
+                    description "Infor ION Tube Template"
+                    tags "system, integrationComponent"
+            }
+
             ionAPI = softwareSystem "ION API" {
                     description "Infor ION API"
                     tags "system, integrationComponent"
