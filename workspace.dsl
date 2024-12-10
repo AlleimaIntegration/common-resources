@@ -307,7 +307,7 @@ workspace {
 
             ibridgeCore = softwareSystem "iBridge Core" {
                 description "Middleware Core instance"
-                tags = "system, middleware, integrationCoreComponent"
+                tags "system, middleware, integrationCoreComponent"
                 url "https://servicepoint.mtrltech.com/nav_to.do?uri=cmdb_ci_business_app.do?sys_id=54a38acbc3d006186e021b43e40131ff%26sysparm_view=business_application_readonly"
             }
 
